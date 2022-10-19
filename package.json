@@ -1,0 +1,32 @@
+{
+  "name": "@luckrya/release",
+  "version": "0.0.1",
+  "description": "Publish your project and support performing some additional custom tasks during the publishing process for better project publishing",
+  "main": "dist/index.js",
+  "bin": {
+    "release": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "release",
+    "CLI"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "L.C",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "enquirer": "^2.3.6",
+    "execa": "^6.1.0",
+    "minimist": "^1.2.7",
+    "semver": "^7.3.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.5",
+    "typescript": "^4.8.4"
+  }
+}
